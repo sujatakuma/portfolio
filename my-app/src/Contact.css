@@ -1,0 +1,70 @@
+/*.container-box{
+    background-image: url('https://img.freepik.com/premium-photo/modern-dark-leather-desk-with-mockup-place-keyboard-black-background-top-view_67155-16371.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    margin: 3rem;
+    padding: 0px;
+    background-color: aqua; 
+    margin-top: 20px;
+    padding: 2px;
+}
+label{
+    margin: 5px;
+    color: aliceblue;
+}
+button{
+    align-items: center;
+    
+}.right label{
+    margin: 10px;
+    
+}h1{
+    margin-top: 2rem;
+}*/
+.heading h1{
+    text-align: center;
+    margin-top: 3px;
+
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.0rem;
+    color: black;
+    background: wheat;
+    margin: .7rem 0;
+}
+.contact form .input-box input{
+    width: 49%;
+}
+.contact form textarea{
+    resize: none;
+}
+.contact form .btn{
+    background-color: yellow;
+    margin-top: 2px;
+    cursor: pointer;
+}@media(max-width:768px){
+    .contact{
+        min-height: auto;
+    }
+    
+}
